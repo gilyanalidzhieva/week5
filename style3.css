@@ -1,0 +1,76 @@
+/*shapka saita*/
+#shapka {
+    background-image: url(./assets/head2.jpg);
+    background-size: cover;
+    color: aliceblue;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*zagolovki i abzacu*/
+h1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/*effect*/
+.podborka1 {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.podborka1:hover img {
+    transform: scale(1.1);
+}
+
+img {
+    transition: transform 0.25s;
+}
+
+/*ocnovnaya chast'*/
+body {
+    background: linear-gradient(rgb(159, 93, 161), rgb(19, 19, 99));
+}
+
+.podborka2, .podborka3, .podborka5, .podborka6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.podborka4 {
+    display: flex;
+    flex-direction: column;
+    height: 1700px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.podborka7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
